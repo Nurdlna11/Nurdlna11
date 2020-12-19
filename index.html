@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>My Personal Website</title>
+</head>
+<body>
+<embed src="Audio/Waltz.mp3" hidden="true" autoplay="true"></embed>
+<body bgcolor="Black">
+<center><a href="Homepage.html"><img src="Images/ButtonHomepage.png"></a>
+<a href="Biodata.html"><img src="Images/ButtonBiodata.png"></a>
+<a href="Family.html"><img src="Images/ButtonFamily.png"></a>
+<a href="Education.html"><img src="Images/ButtonEducation.png"></a>
+<a href="Experience.html"><img src="Images/ButtonExperience.png"></a>
+<a href="Gallery.html"><img src="Images/ButtonGallery.png"></a></center>
+<br>
+<p class='rag'>
+<marquee id='r'><font size="32" font color="white">Hello! Nice to Meet You, Welcome to My Personal Website :)</marquee></p>
+<center><embed src="Clock.swf"></embed></center>
+<center><h2><font size="32" font color="#E8186A"> NUR ADLINA'S Website </font></h2></center>
+<center><i><b><font color="white"> by NUR ADLINA BINTI MOHD ASRI</font></b></i></center>
+<center><pre><font color="#D68EAA"> 2018803636     KIM110 5B</font></pre></center>
+<br>
+<div class="slideshow-banner">
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Images/Welcome.jpg" style="width:100%" height="550">
+  <div class="text">NUR ADLINA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Images/Homepagepic3.jpg" style="width:100%" height="550">
+  <div class="text">NUR ADLINA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Images/Homepagepic.jpg" style="width:100%" height="550">
+  <div class="text">NUR ADLINA</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<section>
+<center><h1><font color="white"> Total Pageviews:</font></h1></center>
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<center><img src="https://hitwebcounter.com/counter/counter.php?
+page=7727646&style=0036&nbdigits=5&type=page&initCount=0" 
+title="Total Website Hits" Alt="Web Hits"   border="0" /></a></center>
+</section>
+<br>                                   
+<h2><font color="white">CONTACT US:</font></H2>
+<pre><i><font color="White">Design by:</font></i></pre>
+<pre><font color="yellow"> NUR ADLINA BINTI MOHD ASRI</font></pre>
+<pre><i><font color="White">No. Matrik:</font></i></pre>
+<pre><font color="yellow"> 2018803636</font></pre>
+<pre><i><font color="White">Class:</font></i></pre>
+<pre><font color="yellow"> KIM 1105B</font></pre>
+<pre><i><font color="White">Subject:</font></i></pre>
+<pre><font color="yellow"> IMD 311: INTRODUCTION TO WEB CONTENT MANAGEMENT</font></pre>
+<pre><i><font color="White">Prepared for:</font></i></pre>
+<pre><font color="yellow"> Mohd Firdaus Bin Helmi</font></pre>
+<pre><i><font color="White">Study at:</font></i></pre>
+<a href="https://www.uitm.edu.my/index.php/en/" target="_blank"><font color="red">UiTM</font></a href>
+</body>
+</html>
